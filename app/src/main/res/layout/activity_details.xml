@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.prepavenir.guide.ui.details.detailsActivity">
+
+
+    <ImageView
+        android:id="@+id/imageViewPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mac_do"/>
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:text="Mac DO"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Fast Food"/>
+
+        <TextView
+            android:id="@+id/textViewStars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="2 étoiles"/>
+
+
+    <Button
+        style="@style/HomeButtonTop"
+        android:id="@+id/buttonEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bouton_email_off"
+        android:layout_marginTop="10dp"
+        tools:text="monadresseemail@gmail.com"/>
+
+    <Button
+        style="@style/HomeButtonTop"
+        android:id="@+id/buttonPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bouton_tel_off"
+        android:layout_marginTop="10dp"
+        tools:text="01 45 24 78 14"/>
+
+    <Button
+        style="@style/HomeButtonTop"
+        android:id="@+id/buttonUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bouton_site_off"
+        android:layout_marginTop="10dp"
+        tools:text="www.resto.com"/>
+</LinearLayout>
+</LinearLayout>
